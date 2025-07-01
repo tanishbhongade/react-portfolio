@@ -1,0 +1,39 @@
+.typewriterContainer {
+    font-family: 'Domine', serif;
+    color: #ccc;
+    margin-left: 10vw;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staticText {
+    font-size: 60px;
+    font-family: 'Domine', serif;
+    color: #888;
+}
+
+.dynamicText {
+    font-size: 60px;
+    font-family: 'Domine', serif;
+    color: white;
+    font-weight: bold;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+
+    .staticText,
+    .dynamicText {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .typewriterContainer {
+        margin-top: 100px;
+        /* add margin below navbar */
+        margin-left: 0;
+        padding: 0 1rem;
+    }
+}

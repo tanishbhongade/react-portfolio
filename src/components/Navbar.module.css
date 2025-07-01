@@ -1,0 +1,45 @@
+.navigationbar {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    background-color: black;
+    font-family: "Domine", serif;
+    font-weight: 500;
+    font-size: 23px;
+    height: 7vh;
+    border-radius: 13px;
+}
+
+.navigationlinks {
+    text-decoration: none;
+    color: white;
+}
+
+.navigationlinks:hover {
+    color: yellow;
+}
+
+.navigationlinks:first-child {
+    margin-left: 2rem;
+}
+
+.navigationlinks:last-child {
+    margin-right: 4rem;
+}
+
+@media (max-width: 768px) {
+    .navigationbar {
+        gap: 1rem;
+        font-size: 18px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.75rem 1rem;
+    }
+
+    .navigationlinks:first-child,
+    .navigationlinks:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

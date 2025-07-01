@@ -1,0 +1,9 @@
+.timelinedate {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .timelinedate {
+        color: #222;
+    }
+}
